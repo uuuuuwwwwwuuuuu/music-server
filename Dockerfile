@@ -14,6 +14,8 @@ WORKDIR /app
 # Копируем файлы
 COPY . /app/
 
+RUN chmod -R 755 /media/
+
 RUN pip install --upgrade pip
 
 # Устанавливаем зависимости Python
