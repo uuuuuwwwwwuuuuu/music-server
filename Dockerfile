@@ -18,8 +18,11 @@ COPY .env /app/
 # Устанавливаем зависимости Python
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Указываем команду для вывода версии Python (для отладки)
+RUN python --version
+
 # Выполняем миграции и собираем статику
-RUN python manage.py migrate
+RUN python manage.py migrate --verbosity 2
 RUN python manage.py collectstatic --noinput
 
 # Указываем команду для запуска сервера
