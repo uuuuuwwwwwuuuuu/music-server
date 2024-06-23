@@ -29,9 +29,14 @@ DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
 ALLOWED_HOSTS = ['*']
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default=os.getenv('DATABASE_URL')
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'ZsgandpiDhZSAjSykKFkNLXdUoRWIimj',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '20607',
+    }
 }
 
 # Application definition
