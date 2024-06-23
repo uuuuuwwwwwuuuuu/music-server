@@ -12,8 +12,8 @@ RUN apt-get update \
 WORKDIR /app
 
 # Копируем файлы
-COPY . /app/
-COPY .env /app/
+COPY . /server/
+COPY .env /server/
 
 # Устанавливаем зависимости Python
 RUN pip install --no-cache-dir -r requirements.txt
