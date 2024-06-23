@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 import os
 from pathlib import Path
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,12 +21,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-moa^^7lqkn!xyda9313$ra5=rbxd!-bjx=ute5yyzdml3(ao@#'
+SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-moa^^7lqkn!xyda9313$ra5=rbxd!-bjx=ute5yyzdml3(ao@#')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = ['*']
+
+DATABASE_URL = 'postgresql://postgres:ZsgandpiDhZSAjSykKFkNLXdUoRWIimj@monorail.proxy.rlwy.net:20607/railway'
 
 
 # Application definition
@@ -58,6 +61,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'https://uuuuuwwwwwuuuuu.github.io/music-player-TS/'
 ]
 
 CORS_ALLOW_HEADERS = [
@@ -91,14 +95,9 @@ WSGI_APPLICATION = 'server.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'musicserverdb',
-        'USER': 'devor',
-        'PASSWORD': 'Devor1972!',
-        'HOST': 'localhost',
-        'PORT': '5432'
-    }
+    'default': dj_database_url.config(
+        default=os.getenv('DATABASE_URL')
+    )
 }
 
 
