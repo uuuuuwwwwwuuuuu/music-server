@@ -13,13 +13,11 @@ WORKDIR /app
 
 # Копируем файлы
 COPY . /app/
-COPY .env /app/
 
 # Устанавливаем зависимости Python
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Указываем команду для вывода версии Python (для отладки)
-RUN python --version
+RUN pip install django-cors-headers
 
 # Выполняем миграции и собираем статику
 RUN python manage.py migrate
