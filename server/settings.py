@@ -59,7 +59,11 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = ['*']
+CORS_ALLOWED_ORIGINS = [
+    'http://*',
+    'https://*',
+]
+
 
 CORS_ALLOW_HEADERS = [
     'Token',
