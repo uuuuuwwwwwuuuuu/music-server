@@ -12,8 +12,8 @@ RUN apt-get update \
 WORKDIR /app
 
 # Копируем файлы
-COPY . /server/
-COPY .env /server/
+COPY . /app/
+COPY .env /app/
 
 # Устанавливаем зависимости Python
 RUN pip install --no-cache-dir -r requirements.txt
@@ -22,7 +22,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN python --version
 
 # Выполняем миграции и собираем статику
-RUN python manage.py migrate --verbosity 2
+RUN python manage.py migrate
 RUN python manage.py collectstatic --noinput
 
 # Указываем команду для запуска сервера
