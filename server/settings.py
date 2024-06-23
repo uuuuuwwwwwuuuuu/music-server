@@ -59,10 +59,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'https://uuuuuwwwwwuuuuu.github.io/music-player-TS/'
-]
+CORS_ALLOWED_ORIGINS = ['*']
 
 CORS_ALLOW_HEADERS = [
     'Token',
