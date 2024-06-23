@@ -25,7 +25,6 @@ RUN pip install pillow
 
 # Выполняем миграции и собираем статику
 RUN python manage.py migrate
-RUN python manage.py collectstatic --noinput
 
 # Указываем команду для запуска сервера
 CMD ["gunicorn", "--bind", "0.0.0.0:8000", "server.wsgi:application"]
