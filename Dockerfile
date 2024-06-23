@@ -27,4 +27,4 @@ RUN pip install pillow
 RUN python manage.py migrate
 
 # Указываем команду для запуска сервера
-CMD ["gunicorn", "--bind", "music-server-production-d261.up.railway.app", "server.wsgi:application"]
+CMD ["gunicorn", "server.wsgi:application"]
