@@ -14,11 +14,14 @@ WORKDIR /app
 # Копируем файлы
 COPY . /app/
 
+RUN pip install --upgrade pip
+
 # Устанавливаем зависимости Python
 RUN pip install --no-cache-dir -r requirements.txt
 
 RUN pip install django-cors-headers
 RUN pip install pillow
+
 
 # Выполняем миграции и собираем статику
 RUN python manage.py migrate
