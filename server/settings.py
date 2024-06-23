@@ -68,8 +68,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000/',
-    'https://music-server-production-d261.up.railway.app/',
+    'http://localhost:3000',
+    'https://music-server-production-d261.up.railway.app',
 ]
 
 
