@@ -67,17 +67,18 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'https://music-server-production-d261.up.railway.app',
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:3000',
+#     'https://music-server-production-d261.up.railway.app',
+# ]
 
 
-CORS_ALLOW_HEADERS = [
-    'Token',
-    'Content-type'
-]
+# CORS_ALLOW_HEADERS = [
+#     'Token',
+#     'Content-type'
+# ]
 
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'server.urls'
 
