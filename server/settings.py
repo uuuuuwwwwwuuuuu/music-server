@@ -73,10 +73,10 @@ MIDDLEWARE = [
 # ]
 
 
-# CORS_ALLOW_HEADERS = [
-#     'Token',
-#     'Content-type'
-# ]
+CORS_ALLOW_HEADERS = [
+    'Token',
+    'Content-type'
+]
 
 CORS_ALLOW_ALL_ORIGINS = True
 
