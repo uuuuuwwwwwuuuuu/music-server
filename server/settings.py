@@ -86,10 +86,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# CORS_ALLOWED_ORIGINS = [
-#     'http://localhost:3000',
-#     'https://uuuuuwwwwwuuuuu.github.io',
-# ]
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'https://uuuuuwwwwwuuuuu.github.io',
+]
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
 
