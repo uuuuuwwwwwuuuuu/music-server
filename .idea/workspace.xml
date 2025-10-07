@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5ef39b1-7274-47ee-b722-ec5cc5010b84" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/1200x1200bb_3XhMTND.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/13prichin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/13prichin_a9ybmBt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/3b464f761a04bc88d4c345a52d6826a5.1000x1000x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/400x400bb.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/500x500_iZuzECY.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/7228c6a0e7c148a5c8416313d36c0a93.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/85fe67bb27fa69d1593d983aa48a64be.1000x1000x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/artworks-000420216468-i3hje2-t500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/artworks-9xzV0fBbrbhb4DSA-Un8KNA-t500x500_jqXkPta.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/b6fefd48932ec4c80e25946a9a25f327.1000x1000x1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/c1a02d42fd05c53a4c440b6701764ce8.274x274x1_vA5xJBi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/d560bdd42cddefe9e13b1ac5e2d68588.1000x1000x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/d560bdd42cddefe9e13b1ac5e2d68588.1000x1000x1_IN70coU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/d560bdd42cddefe9e13b1ac5e2d68588.1000x1000x1_kYrmBFy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/images_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/images_1PPOAN3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/images_RMPnEQ8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/images_bwQvYfz.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/images_yRtAvzW.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/albumsImg/maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/albumsImg/maxresdefault.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/artistsBigImg/3QPcqOkKkdM.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/music/MORGENSHTERN_Tancuy.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/music/MORGENSHTERN_Uff..._Dengi....mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/music/Nervy_Ty_by_o____a.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/music/Нервы_-_Самыи_Дорогои_Человек.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/music/Скриптонит_-_Это_Любовь.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/userImg/2023-11-11_17.01.31.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/userImg/2024-05-18_18.23.38.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
