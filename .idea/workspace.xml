@@ -5,7 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5ef39b1-7274-47ee-b722-ec5cc5010b84" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/1200x1200bb_3XhMTND.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/13prichin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/13prichin_a9ybmBt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/3b464f761a04bc88d4c345a52d6826a5.1000x1000x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/400x400bb.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/500x500_iZuzECY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/7228c6a0e7c148a5c8416313d36c0a93.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/85fe67bb27fa69d1593d983aa48a64be.1000x1000x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/artworks-000420216468-i3hje2-t500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/artworks-9xzV0fBbrbhb4DSA-Un8KNA-t500x500_jqXkPta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/b6fefd48932ec4c80e25946a9a25f327.1000x1000x1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/c1a02d42fd05c53a4c440b6701764ce8.274x274x1_vA5xJBi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/d560bdd42cddefe9e13b1ac5e2d68588.1000x1000x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/d560bdd42cddefe9e13b1ac5e2d68588.1000x1000x1_IN70coU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/d560bdd42cddefe9e13b1ac5e2d68588.1000x1000x1_kYrmBFy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/images_1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/images_1PPOAN3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/images_RMPnEQ8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/images_bwQvYfz.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/images_yRtAvzW.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/albumsImg/maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/albumsImg/maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/artistsBigImg/3QPcqOkKkdM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/music/MORGENSHTERN_Tancuy.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/music/MORGENSHTERN_Uff..._Dengi....mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/music/Nervy_Ty_by_o____a.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/music/Нервы_-_Самыи_Дорогои_Человек.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/music/Скриптонит_-_Это_Любовь.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/userImg/2023-11-11_17.01.31.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/userImg/2024-05-18_18.23.38.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,21 +53,54 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2fYNDwQ5HoGB0BZwwVvNpSHHa7l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
       </set>
     </attachedChunks>
   </component>
