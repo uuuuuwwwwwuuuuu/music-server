@@ -30,12 +30,12 @@ ALLOWED_HOSTS = ['*']
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'lTKdLgxMTkVzPNmignENMgSxNFRINxrV!',
-        'HOST': 'mainline.proxy.rlwy.net',
-        'PORT': '10006',
+        'PASSWORD': 'lTKdLgxMTkVzPNmignENMgSxNFRINxrV',
+        'HOST': 'postgres.railway.internal',
+        'PORT': '5432',
     }
 }
 
