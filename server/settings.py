@@ -90,13 +90,19 @@ CORS_ALLOWED_ORIGINS = [
     'https://uuuuuwwwwwuuuuu.github.io',
 ]
 
+CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOW_HEADERS = [
     'Token',
-    'Content-type'
+    'Content-type',
+    'Authorization',
+    'accept',
+    'accept-encoding',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
 ]
-
-CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'server.urls'
 
