@@ -26,7 +26,8 @@ RUN pip install pillow
 
 
 # Выполняем миграции и собираем статику
-RUN python manage.py migrate
+CMD sh -c "python manage.py migrate && gunicorn server.wsgi:application --bind 0.0.0.0:\$PORT"
+
 
 # Указываем команду для запуска сервера
 CMD ["gunicorn", "server.wsgi:application"]
